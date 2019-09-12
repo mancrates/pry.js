@@ -1,4 +1,3 @@
-pygmentize = require 'pygmentize-bundled'
 deasync = require 'deasync'
 chalk = require 'chalk'
 util = require 'util'
@@ -22,17 +21,7 @@ class SyncHighlight
     value
 
   highlight: ->
-    if chalk.supportsColor
-      done = data = false
-      pygmentize
-        lang: @type
-        format: "terminal"
-      , @content, (err, res) =>
-        done = true
-        data = res.toString()
-      deasync.runLoopOnce() until done
-    else
-      data = @content
+    data = @content
     data
 
   code_snippet: (start, end, line_number, line_pointer = ' => ') ->

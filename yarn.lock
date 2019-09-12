@@ -208,13 +208,6 @@ bindings@~1.2.1:
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
   integrity sha1-FK1hE4EtLTfXLme0ystLtyZQXxE=
 
-bl@~0.4.1:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-0.4.2.tgz#5db31d72f038c54e68adc39578125fe3b0addc96"
-  integrity sha1-XbMdcvA4xU5orcOVeBJf47Ct3JY=
-  dependencies:
-    readable-stream "~1.0.2"
-
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -1984,11 +1977,6 @@ object-keys@^1.0.12, object-keys@^1.1.1:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
-object-keys@~0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-0.4.0.tgz#28a6aae7428dd2c3a92f3d95f21335dd204e0336"
-  integrity sha1-KKaq50KN0sOpLz2V8hM13SBOAzY=
-
 object-visit@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/object-visit/-/object-visit-1.0.1.tgz#f79c4493af0c5377b59fe39d395e41042dd045bb"
@@ -2229,14 +2217,6 @@ punycode@~1.2.3:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.2.4.tgz#54008ac972aec74175def9cba6df7fa9d3918740"
   integrity sha1-VACKyXKux0F13vnLpt9/qdORh0A=
 
-pygmentize-bundled@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/pygmentize-bundled/-/pygmentize-bundled-2.3.0.tgz#d425deda8d136975b933ede363135f623350814a"
-  integrity sha1-1CXe2o0TaXW5M+3jYxNfYjNQgUo=
-  dependencies:
-    bl "~0.4.1"
-    through2 "~0.2.1"
-
 q-io@1.13.2:
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/q-io/-/q-io-1.13.2.tgz#eea130d481ddb5e1aa1bc5a66855f7391d06f003"
@@ -2299,7 +2279,7 @@ randomfill@^1.0.3:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@~1.0.17, readable-stream@~1.0.2:
+readable-stream@~1.0.17:
   version "1.0.34"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
   integrity sha1-Elgg40vIQtLyqq+v5MKRbuMsFXw=
@@ -2689,14 +2669,6 @@ through2@^1.0.0:
     readable-stream ">=1.1.13-1 <1.2.0-0"
     xtend ">=4.0.0 <4.1.0-0"
 
-through2@~0.2.1:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/through2/-/through2-0.2.3.tgz#eb3284da4ea311b6cc8ace3653748a52abf25a3f"
-  integrity sha1-6zKE2k6jEbbMis42U3SKUqvyWj8=
-  dependencies:
-    readable-stream "~1.1.9"
-    xtend "~2.1.1"
-
 through2@~0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/through2/-/through2-0.5.1.tgz#dfdd012eb9c700e2323fd334f38ac622ab372da7"
@@ -2971,13 +2943,6 @@ xtend@^3.0.0, xtend@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-3.0.0.tgz#5cce7407baf642cba7becda568111c493f59665a"
   integrity sha1-XM50B7r2Qsunvs2laBEcST9ZZlo=
-
-xtend@~2.1.1:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/xtend/-/xtend-2.1.2.tgz#6efecc2a4dad8e6962c4901b337ce7ba87b5d28b"
-  integrity sha1-bv7MKk2tjmlixJAbM3znuoe10os=
-  dependencies:
-    object-keys "~0.4.0"
 
 yargs@~3.5.4:
   version "3.5.4"
